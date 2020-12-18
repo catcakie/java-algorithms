@@ -15,7 +15,6 @@ public static int indexInArray(int num, ArrayList<Integer> array) {
             maxIndex = midIndex - 1;
         if (num > numGuess)
             minIndex = midIndex + 1;
-        midIndex = (minIndex + maxIndex) / 2;
     }
     return -1;
 }
